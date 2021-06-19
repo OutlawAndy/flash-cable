@@ -1,8 +1,6 @@
-# Flash::Cable
+# Flash::Cable (WIP)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/flash/cable`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Middleware + plumbing for delivering Flash messages via ActionCable.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Assign Flash messages as usual in your controllers. Flash-cable will intercept them at the middleware layer and deliver them to the browser via ActionCable. A Stimulus Controller and stylesheet are included to facilitate displaying fancy looking, temporary, dismissible messages to your users.
 
 ## Development
 

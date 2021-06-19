@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andy Cohen"]
   spec.email         = ["yourstruly@outlawandy.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Middleware + plumbing for delivering Flash messages via ActionCable."
+  spec.description   = "Assign Flash messages as usual in your controllers. Flash-cable will intercept them at the middleware layer and deliver them to the browser via ActionCable. A Stimulus Controller and stylesheet are included to facilitate displaying fancy looking, temporary, dismissible messages to your users."
+  spec.homepage      = "https://github.com/OutlawAndy/flash-cable"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/OutlawAndy/flash-cable"
+  spec.metadata["changelog_uri"] = "https://github.com/OutlawAndy/flash-cable/blob/master/Changelog.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
