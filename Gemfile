@@ -5,6 +5,7 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in flash-cable.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
+group :development do
+  gem "sqlite3"
+end
 
-gem "rspec", "~> 3.0"
